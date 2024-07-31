@@ -3,7 +3,9 @@ import React from 'react'
 
 const Txt = ({data,style}) => {
   return (
-      <Text style={style}>{data}</Text>
+      <Text 
+      allowFontScaling={false}
+      style={style}>{data}</Text>
   )
 }
 
